@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Tianfu He | Tianfu.D.He@gmail.com'
+AUTHOR = u'Tianfu He'
 SITENAME = u'Tianfu.D.He'
 SITEURL = ''
 
@@ -26,8 +26,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Email', 'mailto:tianfu.d.he@gmail.com'),
+          ('Github', 'https://github.com/tianfudhe'),)
 
 DEFAULT_PAGINATION = 8
 
