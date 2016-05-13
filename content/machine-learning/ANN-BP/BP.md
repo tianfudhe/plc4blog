@@ -64,7 +64,7 @@ It's know that we can conduct Stochastic Learning adapting Neural Network to onl
   
 However, unlike batch algorithm (**Matrix Manipulation**), stochastic learning solely iterate all examples in the very slooooow `loop` operation, discarding the fast matrix computation of the build-in math library. This problem would reveal apparently in morden languages such as `python`.
   
-So, it's suggested to take a small subset at a time to conduct batch algorithm, which might be a good trade-off between **Matrix Manipulation** and **Error Surface Invariance**, therefore guarantees both efficiency and optima. *It should be noted that we cannot take too much examples during each batch epoch, as a sizable subset would be nearly sufficient representing the Error Bound of the whole data.*
+So, it's suggested to take a small subset at a time, called *mini-batch*, to conduct batch algorithm, which might be a good trade-off between **Matrix Manipulation** and **Error Surface Invariance**, therefore guarantees both efficiency and optima. *It should be noted that we cannot take too much examples during each batch epoch, as a sizable subset would be nearly sufficient representing the Error Bound of the whole data.*
 
 
 ```python
