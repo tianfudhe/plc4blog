@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 8
 
 ################ Added by me
 PLUGIN_PATHS = ["./plugins"]
-PLUGINS = ["render_math", u"disqus_static"]
+PLUGINS = ["render_math", "disqus_static"]
 
 THEME = "notmyidea"
 
