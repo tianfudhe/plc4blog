@@ -9,6 +9,7 @@ Category: machine learning
 - $X$: matrix with **coulmns the enumerate of instances** and rows the attributes.
 - $K[\cdot,\cdot], K(\cdot,\cdot)$: kernel matrix, function
 
+We know in PCA,
 $$(X X^{T})V=V \Lambda\\\
 \to (X X^{T})^{-1} = C _ {X}^{-1} = V\Lambda^{-1} V^{-1} = V\Lambda^{-1} V^{T}\\\
 \to C _ {X}^{-1} = V\Lambda^{-1} V^{T}$$
