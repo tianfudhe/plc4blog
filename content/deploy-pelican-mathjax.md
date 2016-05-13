@@ -4,7 +4,7 @@ Category: deploy notes
 
 # Render Math in Pelican
 When you get your research notes done with latex syntax in `.md`, and prepared to generate the site and `git push` it to your Github Page, terrible things happend that **Latex syntax parts are not rendered with Mathjax!**.  
-This article introduces a convenient configure to your Pelican that once done, pages with Mathjax are generated without extra work.
+This article introduces a convenient configure to your Pelican that once done, pages with Mathjax are generated **without** extra work.
 
 ## Install Pelican Plugin `render-math`
 To render Latex math, we need to install the Pelican plugin `render-math`.
