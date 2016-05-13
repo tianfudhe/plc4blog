@@ -1,5 +1,5 @@
 Title: How to render math in Pelican
-Date: 2016-05-13 13:17:00
+Date: 2016-05-13 13:17
 Category: deploy notes
 
 # Render Math in Pelican

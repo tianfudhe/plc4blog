@@ -1,5 +1,5 @@
 Title: Welcome to my blog
-Date: 2016-05-13 14:00:00
+Date: 2016-05-13 14:00
 Category: mood
 
 Ha lou(Hello in Chinese Pin-yin)! Welcome to my blog,   

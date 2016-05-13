@@ -1,5 +1,5 @@
 Title: PCA and Mahalanobis Distance
-Date: 2016-05-13 10:57:00
+Date: 2016-05-13 10:57
 Category: machine learning
 
 # PCA
