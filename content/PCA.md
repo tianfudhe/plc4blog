@@ -1,16 +1,21 @@
 Title: PCA and Mahalanobis Distance
-Date: 2016-05-13 10:57
+Date: 2016-05-13 10:57:00
 Category: machine learning
 
 # PCA
 
- $(X^{T} X)V=V \Lambda$  
- $\to (X^{T} X)^{-1} = C _ {X}^{-1} = V\Lambda^{-1} V^{-1} = V\Lambda^{-1} V^{T}$  
- $\to C _ {X}^{-1} = V\Lambda^{-1} V^{T}$
+## Notations
+
+- $X$: matrix with **coulmns the enumerate of instances** and rows the attributes.
+- $K[\cdot,\cdot], K(\cdot,\cdot)$: kernel matrix, function
+
+$$(X X^{T})V=V \Lambda\\\
+\to (X X^{T})^{-1} = C _ {X}^{-1} = V\Lambda^{-1} V^{-1} = V\Lambda^{-1} V^{T}\\\
+\to C _ {X}^{-1} = V\Lambda^{-1} V^{T}$$
 
 where $C_X$ is the kernel matrix of $X$. From this, it's intuitive that if we decompose the original kernel matrix $K^{-1}$ in $chrosky$, i.e.
 $$K^{-1}=L^{T}L \to X^T(L^T L)X = (LX)^T (LX) = I$$
-, the component $L$ actually linearly maps $X$ to a space that $XL$ are features-independent with $variance$ all equal to $1$, hence a normalized metric for $distance(x_1,x_2)$ is built, that
+, the component $L$ actually linearly transforms $X$ to a space that attributes in $LX$ are independent with $variance$ all equal to $1$, hence a normalized metric for $distance(x_1,x_2)$ is built, that
 $$distance(x_1,x_2)=(x_1-x_2)^T K^{-1} (x_1-x_2)$$
 
 ## Case study
