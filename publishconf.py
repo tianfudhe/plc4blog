@@ -18,6 +18,9 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["render_math"]
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
