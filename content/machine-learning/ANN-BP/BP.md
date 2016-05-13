@@ -4,7 +4,7 @@ Category: machine learning
 
 To calculate the derivative of the parameters, we leverage the temp resutls computed of each layer to compute all the gradients backward, performing like a propagation.
 
-![BP at `l` and `l+1` level](./layer-l.png)
+![BP at `l` and `l+1` level]({filename}/images/bp/layer-l.png)
 
 Given data $\mathcal{D}=\{X,y\}$.
   
@@ -84,11 +84,11 @@ test_model(mdl, demo=True)
 ```
 
 
-![png](output_4_0.png)
+![png]({filename}/images/bp/output_4_0.png)
 
 
 
-![png](output_4_1.png)
+![png]({filename}/images/bp/output_4_1.png)
 
 
 
@@ -128,8 +128,3 @@ From the last charpter we can see that $p(x|y=k)p(y=k)$ is in proportion to $p(x
 $$(X X^{T})V=V \Lambda \\\
 \to (X X^{T})^{-1} = C _ {X}^{-1} = V\Lambda^{-1} V^{-1} = V\Lambda^{-1} V^{T} \\\
 \to C _ {X}^{-1} = V\Lambda^{-1} V^{T}$$
-
-
-```python
-
-```
