@@ -40,7 +40,7 @@ Now, with $\delta_l$, we can easily compute all the gradients of parameters,
 $$\frac{\partial J}{\partial W_l} = \frac{\partial J}{\partial z_l} \frac{\partial z_l}{\partial W_l} = \delta_l \cdot o_{l-1}^T$$
 $$\frac{\partial J}{\partial b_l} = \frac{\partial J}{\partial z_l} \frac{\partial z_l}{\partial b_l} = \delta_l$$
   
-Now we can implement a toy Neural Network in `python`.
+Now we can implement a toy Neural Network in `python`, [the source code is here](https://coding.net/u/tianfudhe/p/pynn/git).
 
 
 ```python
