@@ -1,5 +1,5 @@
 Title: BP and Artificial Neural Network
-Date: 2016-05-13 8:34
+Date: 2016-05-13 20:34
 Category: machine learning
 
 To calculate the derivative of the parameters, we leverage the temp resutls computed of each layer to compute all the gradients backward, performing like a propagation.
