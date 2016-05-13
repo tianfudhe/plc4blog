@@ -30,8 +30,23 @@ SOCIAL = (('EMail', 'mailto:tianfu.d.he@gmail.com'),
 
 DEFAULT_PAGINATION = 8
 
+
+
+################ Added by me
 PLUGIN_PATHS = ["./plugins"]
 PLUGINS = ["render_math"]
+
+THEME = "notmyidea"
+
+
+PLUGINS = [u"disqus_static"]
+
+DISQUS_SITENAME = u'YOUR_SITENAME'
+DISQUS_SECRET_KEY = u'YOUR_SECRET_KEY'
+DISQUS_PUBLIC_KEY = u'YOUR_PUBLIC_KEY'
+
+############################
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
