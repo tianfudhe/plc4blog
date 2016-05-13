@@ -11,7 +11,7 @@ Given data $\mathcal{D}=\{X,y\}$.
 Let $L-1$ denote the number of hidden layers, $n_l$ the neurals of $l^{th}$ layer, $W_l$ the weight matrix of $l^{th}$ layer, $o_l$ the input of $l^{th}$ layer, also the input of ${l+1}^{th}$ layer(of course $o_0$ is the input data $X$). We also define $z$ with
 $$z _ {l+1}=W _ {l+1}o _ l+b _ {l+1}$$
 $$o _ l=g(z _ l)$$
-, where $g(x)$ is usually `sigmoid` or `ReLU` function. The rest of this article will take $g(x)=\frac{1}{1+e_{-x}}$
+, where $g(x)$ is usually `sigmoid` or `ReLU` function. The rest of this article will take $g(x)=\frac{1}{1+e^{-x}}$
 
 The objective function is to optimize the `l2-norm` of the prediction error that
 $$J=\frac{1}{2}(o_L-y)^{T}(o_L-y)$$
@@ -124,7 +124,3 @@ $$\frac{p(x \mid y=0)p(y=0)}{p(x \mid y=1)p(y=1)}
 , and the $\theta$ refered in `logistic function` is just $(\mu_1 - \mu_0)^T\Sigma^{-1}$ here.
 ### Softmax
 From the last charpter we can see that $p(x|y=k)p(y=k)$ is in proportion to $p(x \mid y=l)p(y=l)$ by $Z \cdot \exp\{ - (\mu_k - \mu_l)^T\Sigma^{-1} x \}$, thus we sucessfully derive from GDA to softmax.
-
-$$(X X^{T})V=V \Lambda \\\
-\to (X X^{T})^{-1} = C _ {X}^{-1} = V\Lambda^{-1} V^{-1} = V\Lambda^{-1} V^{T} \\\
-\to C _ {X}^{-1} = V\Lambda^{-1} V^{T}$$
