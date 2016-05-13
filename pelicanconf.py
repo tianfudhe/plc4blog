@@ -30,5 +30,8 @@ SOCIAL = (('Mail', 'mailto:tianfu.d.he@gmail.com'),
 
 DEFAULT_PAGINATION = 8
 
+PLUGIN_PATHS = ["./plugins"]
+PLUGINS = ["render_math"]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
