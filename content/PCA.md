@@ -10,7 +10,7 @@ Category: machine learning
 
 where $C_X$ is the kernel matrix of $X$. From this, it's intuitive that if we decompose the original kernel matrix $K^{-1}$ in $chrosky$, i.e.
 $$K^{-1}=L^{T}L \to X^T(L^T L)X = (LX)^T (LX) = I$$
-, the component $L$ actually linearly maps $X$ to a space that $XL$ are features-independent with $variance$ all equal to $1$, making a normalized metric for $distance(x_1,x_2)$ that
+, the component $L$ actually linearly maps $X$ to a space that $XL$ are features-independent with $variance$ all equal to $1$, hence a normalized metric for $distance(x_1,x_2)$ is built that
 $$distance(x_1,x_2)=(x_1-x_2)^T K^{-1} (x_1-x_2)$$
 
 ## Case study
