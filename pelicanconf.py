@@ -44,7 +44,7 @@ GITHUB_ADDRESS = "https://github.com/tianfudhe"
 TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
 PROFILE_IMAGE="images/me.png"
 SITE_SUBTEXT = "Something...like mist"
-MENU_ITEMS = {"About 何天赋": "welcome-to-my-blog.html"}
+MENU_ITEMS = {"About": "welcome-to-my-blog.html"}
 CATEGORIES_ON_MENU = True
 
 ############################
