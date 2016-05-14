@@ -30,7 +30,8 @@ SOCIAL = (('EMail', 'mailto:tianfu.d.he@gmail.com'),
 
 DEFAULT_PAGINATION = 8
 
-# Added by me
+########################### Added by me
+
 PLUGIN_PATHS = ["./plugins"]
 PLUGINS = ["render_math"]
 
@@ -38,13 +39,12 @@ THEME = "pelican-themes/alchemy"
 
 DISQUS_SITENAME = u'tianfudhe'
 
-
 EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
-PROFILE_IMAGE_URL="images/me.png"
-
-SITESUBTITLE="Something...like mist"
-SHOW_ARTICLE_AUTHOR=False
+TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
+PROFILE_IMAGE="images/me.png"
+SITE_SUBTEXT = "Something...like mist"
+CATEGORIES_ON_MENU = True
 
 ############################
 # Uncomment following line if you want document-relative URLs when developing
