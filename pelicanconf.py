@@ -43,7 +43,6 @@ EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
 TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
 PROFILE_IMAGE="images/me.png"
-SITE_SUBTEXT = "Something...like mist"
 MENU_ITEMS = dict(About= "welcome-to-my-blog.html")
 CATEGORIES_ON_MENU = True
 
