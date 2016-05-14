@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Tianfu He'
 SITENAME = u'Tianfu.D.He'
-SITEURL = ''
+SITEURL = 'http://tianfudhe.github.io'
 
 PATH = 'content'
 
@@ -34,13 +34,13 @@ DEFAULT_PAGINATION = 8
 
 ################ Added by me
 PLUGIN_PATHS = ["./plugins"]
-PLUGINS = ["render_math", "disqus_static"]
+PLUGINS = ["render_math"]
 
 THEME = "notmyidea"
 
-DISQUS_SITENAME = 'tianfudhe'
-DISQUS_SECRET_KEY = u'OExuIWfqKsotjYYOzpXF7ES5f8PlvYhler5vvdWOPt9QyAixkkCpmvsVzqgJZrO6'
-DISQUS_PUBLIC_KEY = u'hr6h4Sq5yoWQmf7yJUDfdVMKXkJMkEt97VKQBNEn8VP9drMv93F4m4gLgsBwcxpZ'
+DISQUS_SITENAME = u'tianfudhe'
+# DISQUS_SECRET_KEY = u'OExuIWfqKsotjYYOzpXF7ES5f8PlvYhler5vvdWOPt9QyAixkkCpmvsVzqgJZrO6'
+# DISQUS_PUBLIC_KEY = u'hr6h4Sq5yoWQmf7yJUDfdVMKXkJMkEt97VKQBNEn8VP9drMv93F4m4gLgsBwcxpZ'
 
 ############################
 
