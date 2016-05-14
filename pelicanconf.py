@@ -30,13 +30,18 @@ SOCIAL = (('EMail', 'mailto:tianfu.d.he@gmail.com'),
 
 DEFAULT_PAGINATION = 8
 
-################ Added by me
+# Added by me
 PLUGIN_PATHS = ["./plugins"]
 PLUGINS = ["render_math"]
 
 THEME = "pelican-themes/crowsfoot"
 
 DISQUS_SITENAME = u'tianfudhe'
+
+
+EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
+GITHUB_ADDRESS = "https://github.com/tianfudhe"
+PROFILE_IMAGE_URL="content/images/me.png"
 
 ############################
 # Uncomment following line if you want document-relative URLs when developing
