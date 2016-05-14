@@ -30,20 +30,14 @@ SOCIAL = (('EMail', 'mailto:tianfu.d.he@gmail.com'),
 
 DEFAULT_PAGINATION = 8
 
-
-
 ################ Added by me
 PLUGIN_PATHS = ["./plugins"]
 PLUGINS = ["render_math"]
 
-THEME = "notmyidea"
+THEME = 'aboutwilson'
 
 DISQUS_SITENAME = u'tianfudhe'
-# DISQUS_SECRET_KEY = u'OExuIWfqKsotjYYOzpXF7ES5f8PlvYhler5vvdWOPt9QyAixkkCpmvsVzqgJZrO6'
-# DISQUS_PUBLIC_KEY = u'hr6h4Sq5yoWQmf7yJUDfdVMKXkJMkEt97VKQBNEn8VP9drMv93F4m4gLgsBwcxpZ'
 
 ############################
-
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
