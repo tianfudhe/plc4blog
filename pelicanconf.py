@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 8
 PLUGIN_PATHS = ["./plugins"]
 PLUGINS = ["render_math"]
 
-THEME = 'aboutwilson'
+THEME = './pelican-themes/aboutwilson'
 
 DISQUS_SITENAME = u'tianfudhe'
 
