@@ -41,9 +41,9 @@ DISQUS_SITENAME = u'tianfudhe'
 
 EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
-PROFILE_IMAGE_URL="{filename}/content/images/me.png"
+PROFILE_IMAGE_URL="images/me.png"
 
-SITESUBTITLE="存在一些事情，如同迷一般"
+SITESUBTITLE=""
 SHOW_ARTICLE_AUTHOR=False
 
 ############################
