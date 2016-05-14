@@ -43,7 +43,7 @@ EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
 TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
 PROFILE_IMAGE="images/me.png"
-MENU_ITEMS = dict(About= "welcome-to-my-blog.html")
+MENU_ITEMS = (("About 何天赋", "welcome-to-my-blog.html")
 CATEGORIES_ON_MENU = True
 
 ############################
