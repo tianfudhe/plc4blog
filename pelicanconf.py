@@ -43,6 +43,9 @@ EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
 PROFILE_IMAGE_URL="content/images/me.png"
 
+SITESUBTITLE="存在一些事情，如同迷一般"
+SHOW_ARTICLE_AUTHOR=False
+
 ############################
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
