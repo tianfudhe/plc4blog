@@ -43,7 +43,7 @@ EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
 PROFILE_IMAGE_URL="images/me.png"
 
-SITESUBTITLE=""
+SITESUBTITLE="Something...like mist"
 SHOW_ARTICLE_AUTHOR=False
 
 ############################
