@@ -3,7 +3,7 @@ Date: 2016-05-31 00:34
 Category: deploy notes
 
 # How to add an item into ubuntu right-click context menu?
-To achieve this, following the 2 steps below:
+To achieve this, follow the 2 steps below:
 ## Create a .desktop file
 In ubuntu, all custemized context menu items are given in the format of .desktop file, all of which are settled in `~/.local/share/file-manager/actions/`.
   
