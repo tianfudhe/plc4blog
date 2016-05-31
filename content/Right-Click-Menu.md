@@ -9,7 +9,7 @@ To achieve this, follow the 2 steps below:
 In ubuntu, all custemized context menu items are given in the format of .desktop file, all of which are settled in `~/.local/share/file-manager/actions/`.
   
 Thus, the **first step is creating the .desktop file**.
-```shell
+```bash
 mkdir ~/.local/share/file-manager/actions
 vim open-jupyter-here.desktop
 ```
