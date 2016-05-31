@@ -1,6 +1,7 @@
 Title: How-To Add Right-click Menu in ubuntu
 Date: 2016-05-31 00:34
-Category: deploy notes
+Category: How-To's
+Tags: ubuntu
 
 # How to add an item into ubuntu right-click context menu?
 To achieve this, follow the 2 steps below:
@@ -10,7 +11,7 @@ In ubuntu, all custemized context menu items are given in the format of .desktop
 Thus, the **first step is creating the .desktop file**.
 ```shell
 mkdir ~/.local/share/file-manager/actions
-vim 
+vim open-jupyter-here.desktop
 ```
 
 ## Edit .desktop file.

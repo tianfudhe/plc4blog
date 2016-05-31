@@ -45,6 +45,7 @@ TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
 PROFILE_IMAGE="images/me.png"
 MENU_ITEMS = (("About 何天赋", "welcome-to-my-blog.html"),)
 CATEGORIES_ON_MENU = True
+TAGS_ON_MENU = True
 
 ############################
 # Uncomment following line if you want document-relative URLs when developing

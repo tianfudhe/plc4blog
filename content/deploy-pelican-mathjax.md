@@ -1,6 +1,7 @@
 Title: How-To Render Math in Pelican
 Date: 2016-05-13 13:17
-Category: deploy notes
+Category: How-To's
+Tags: ubuntu
 
 # Render Math in Pelican
 When you get your research notes done with latex syntax in `.md`, and prepared to generate the site and `git push` it to your Github Page, terrible things happend that **Latex syntax parts are not rendered with Mathjax!**.  
