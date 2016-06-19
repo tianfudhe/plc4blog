@@ -25,7 +25,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('EMail', 'mailto:tianfu.d.he@gmail.com'),
+SOCIAL = (('EMail', 'mailto:Tianfu.D.He@outlook.com'),
           ('Github', 'https://github.com/tianfudhe'),)
 
 DEFAULT_PAGINATION = 8
