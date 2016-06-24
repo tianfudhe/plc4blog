@@ -39,7 +39,7 @@ THEME = "pelican-themes/alchemy"
 
 DISQUS_SITENAME = u'tianfudhe'
 
-EMAIL_ADDRESS = "tianfu.d.he@gmail.com"
+EMAIL_ADDRESS = "tianfu.d.he@outlook.com"
 GITHUB_ADDRESS = "https://github.com/tianfudhe"
 TWITTER_ADDRESS = "https://twitter.com/HeTianfu"
 PROFILE_IMAGE="images/me.png"
