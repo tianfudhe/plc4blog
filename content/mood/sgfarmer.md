@@ -5,7 +5,7 @@ Category: mood
 
 
 # 终于可以愉快升级了
-写了个[sg论坛][l_sg]自动回帖脚本。现在升级飞快，很快就能到20天应该就能到8级了吧。![smoking](smoking)
+写了个[sg论坛][l_sg]自动回帖脚本。现在升级飞快，很快就能到20天应该就能到8级了吧。![smoking]({filename}/images/faces/smoking.gif)
 ## 这东西有什么用？
 没用。我无聊写的。如果不玩dota2，即使玩，如果不关注dota2国际比赛，应该不会知道[这个论坛][l_sg]。  
 这个搭在discuz系统上的论坛有无数黑子喷子疯狂带现役、退役dota2选手的节奏。  
