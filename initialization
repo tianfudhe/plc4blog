@@ -1,0 +1,6 @@
+- pip install pelican
+- pip install markdown
+- git clone <repo|plc4blog>
+- git clone <repo|tianfudhe.github.io> under <folder|plc4blog>
+- *compose contents*
+- bash ./ok.sh
