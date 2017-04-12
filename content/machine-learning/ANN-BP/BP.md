@@ -9,8 +9,8 @@ To calculate the derivative of the parameters, we leverage the temp resutls comp
 Given data $\mathcal{D}=\{X,y\}$.
   
 Let $L-1$ denote the number of hidden layers, $n_l$ the neurals of $l^{th}$ layer, $W_l$ the weight matrix of $l^{th}$ layer, $o_l$ the input of $l^{th}$ layer, also the input of ${l+1}^{th}$ layer(of course $o_0$ is the input data $X$). We also define $z$ with
-$$z _ {l+1}=W _ {l+1}o _ l+b _ {l+1}$$
-$$o _ l=g(z _ l)$$
+$$z _ {l+1}&=W _ {l+1}o _ l+b _ {l+1} \\
+o _ l&=g(z _ l)$$
 , where $g(x)$ is usually `sigmoid` or `ReLU` function. The rest of this article will take $g(x)=\frac{1}{1+e^{-x}}$
 
 The objective function is to optimize the `l2-norm` of the prediction error that
